@@ -28,11 +28,20 @@ const About = () => {
             id="about"
             className="relative w-full min-h-screen overflow-hidden py-20 sm:py-0"
         >
-            <div className="absolute top-1/4 left-0 w-1/2 h-1/2 bg-gradient-to-l from-white to-violet-600 blur-3xl"></div>
+            <div className="absolute top-1/4 left-0 w-1/2 h-1/2 bg-gradient-to-l from-white to-violet-300 blur-2xl"></div>
             <div className="absolute top-10 right-0 w-1/6 h-1/2 bg-gradient-to-br from-white to-yellow-300 blur-3xl"></div>
             <div className="absolute bottom-0 right-0 w-1/4 h-1/2 bg-gradient-to-br from-white to-green-400 blur-3xl"></div>
             <div className="relative w-full max-w-7xl mx-auto px-4 min-h-screen flex">
                 <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+                    <div className="flex items-center justify-center">
+                        <div className="w-96 h-96 rounded-full overflow-hidden shadow-xl">
+                            <img
+                                src="/imgs/profile.jpg"
+                                alt="About"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
+                    </div>
                     <div>
                         <div className="flex items-center gap-3 mb-4">
                             <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 text-2xl font-bold">
@@ -67,31 +76,11 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center">
-                        <div className="w-64 h-64 rounded-full overflow-hidden shadow-xl">
-                            <img
-                                src="/imgs/pf.jpg"
-                                alt="About"
-                                className="w-full h-full object-cover"
-                            />
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <div className="relative w-full max-w-7xl mx-auto px-4 py-12 min-h-screen flex items-center justify-center">
-                <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-24">
-                    <div className="flex items-center justify-center">
-                        <div className="w-full rounded-sm overflow-hidden">
-                            <video
-                                src="/videos/25.mp4"
-                                autoPlay
-                                loop
-                                muted
-                                playsInline
-                                className="w-full h-full object-cover"
-                            />
-                        </div>
-                    </div>
+                <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-24">  
                     <div>
                         <div className="flex items-center gap-3 mb-4">
                             <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 text-2xl font-bold">
@@ -119,6 +108,18 @@ const About = () => {
                                     </div>
                                 ))}
                             </div>
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <div className="w-full rounded-sm overflow-hidden">
+                            <video
+                                src="/videos/25.mp4"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                className="w-full h-full object-cover"
+                            />
                         </div>
                     </div>
                 </div>
