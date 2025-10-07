@@ -8,6 +8,7 @@ import Projects from "./components/Projects"
 import Competencies from "./components/Competencies"
 import Contact from "./components/Contact"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Experience />      
       <Projects />
       <Contact />
+      <Footer />
     </main>
   )
 }
