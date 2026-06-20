@@ -64,21 +64,21 @@ const Footer = () => {
                             <div>
                                 <p class="text-sm">For Email</p>
                                 <a
-                                    href='mailto:bgadkane@gmail.com'
+                                    href='mailto:connect2baburaoadkane@gmail.com'
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-sm font-semibold text-violet-600 hover:text-violet-800 mb-4 block"
                                 >
-                                    bgadkane@gmail.com
+                                    connect2baburaoadkane@gmail.com
                                 </a>
                                 <p class="text-sm">Contact number</p>
                                 <a
-                                    href='tel:+919673929867'
+                                    href='tel:+919309732510'
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-sm font-semibold text-violet-600 hover:text-violet-800 mb-4 block"
                                 >
-                                    9673929867
+                                    9309732510
                                 </a>
                             </div>
                         </div>
